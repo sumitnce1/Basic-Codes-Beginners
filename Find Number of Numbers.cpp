@@ -59,5 +59,5 @@ int num(int a[], int n, int k)
          a[i]=a[i]/10;
         }
     }
-    return sn;
+    return s;
 }
