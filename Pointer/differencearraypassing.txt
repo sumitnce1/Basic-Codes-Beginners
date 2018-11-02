@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+void show(int *p,int array[9])
+{
+	cout<<sizeof(p)<<"--------------"<<sizeof(array);
+}
+int main()
+{
+	int array[]={1,2,3,4,5,6,7,8,9};
+	int *ptr;
+	ptr=array;
+	cout<<sizeof(array);
+	show(ptr,array);
+	return 1;
+}

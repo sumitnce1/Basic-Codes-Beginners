@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i1=100;
+    float f1=200.5;
+    void *vptr;
+    vptr=&i1;
+    cout<<"i1 contains"<<*((int*)vptr)<<endl;
+    vptr=&f1;
+    cout<<"f1 contains"<<*((float *)vptr);
+    return 1;
+}

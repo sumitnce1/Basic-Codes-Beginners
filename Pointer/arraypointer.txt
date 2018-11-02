@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cin>>a>>b>>c;
+	int *ptr[3];
+	ptr[0]=&a;
+	ptr[1]=&b;
+	ptr[2]=&c;
+	cout<<*ptr[0]<<*ptr[1]<<*ptr[2];
+	return 0;
+}

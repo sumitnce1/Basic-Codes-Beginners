@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+void swap(float *,float *);
+int main()
+{
+    float a,b;
+    cout<<"Enter a real Number<a>";
+    cin>>a;
+    cout<<"Enter a real number <b>";
+    cin>>b;
+    swap(&a,&b);
+    cout<<"After swapping ....................";
+    cout<<"a contains"<<a<<endl;
+    cout<<"b contains"<<b;
+    return 1;
+}
+void swap(float *pa,float *pb)
+{
+    float temp;
+    temp=*pa;
+    *pa=*pb;
+    *pb=temp;
+}

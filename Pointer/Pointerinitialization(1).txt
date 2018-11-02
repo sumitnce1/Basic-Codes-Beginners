@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    //int *ptr;
+    int a=10;
+    int *ptr=&a;
+    cout<<ptr<<"-----------------------------------------------"<<*ptr<<endl;
+    char *msg;
+    msg="abc......xyz";
+    cout<<msg;
+  //  msg=&a;
+
+    return 1;
+}

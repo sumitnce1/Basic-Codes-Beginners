@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int arr[5]={3,5,6,7,9};
+	int *p;
+	int (*ptr)[5];//pointer to an array
+	p=arr;
+	ptr=&arr;
+	cout<<p<<"------"<<ptr<<endl;
+	p++;
+	ptr++;
+	cout<<"--------------"<<sizeof(ptr)<<endl;
+	cout<<p<<"------"<<ptr;
+	return 0;
+}

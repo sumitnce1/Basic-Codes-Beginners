@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int my_arr[5] = {1, 2, 3, 4, 5}, i;
+    int *p;
+    p = my_arr;
+    cout<<sizeof(p)<<endl;
+    cout<<sizeof(my_arr)<<endl;
+    
+    // p = &my_arr[0]; // you can also do this
+
+    for(i = 0; i < 5; i++)
+    {
+        cout<<"Value "<<i<< "--------------"<<*(p)<<"\t";
+        cout<<"Address of"<< i<<"------------"<<p <<endl;
+    }
+
+    // signal to operating system program ran fine
+    return 0;
+}

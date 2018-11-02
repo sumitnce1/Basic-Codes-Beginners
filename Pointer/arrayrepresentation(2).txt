@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int my_arr[5] = {1, 2, 3, 4, 5}, i;
+
+    for(i = 0; i < 5; i++)
+    {
+        cout<<"Value "<< i<<"--------------"<< my_arr[i]<<"\t";
+
+        cout<<"Address"<<"----------------"<<&my_arr[i]<<endl;
+    }
+
+    // signal to operating system program ran fine
+    return 0;
+}
