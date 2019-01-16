@@ -14,10 +14,10 @@ float dydx(float x, float y)
         float y = y0; 
         for (int i=1; i<=n; i++) 
          { 
-              k1 = h*dydx(x0, y); 
-              k2 = h*dydx(x0 + 0.5*h, y + 0.5*r1); 
-              k3 = h*dydx(x0 + 0.5*h, y + 0.5*r2); 
-              k4 = h*dydx(x0 + h, y + r3); 
+              r1 = h*dydx(x0, y); 
+              r2 = h*dydx(x0 + 0.5*h, y + 0.5*r1); 
+              r3 = h*dydx(x0 + 0.5*h, y + 0.5*r2); 
+              r4 = h*dydx(x0 + h, y + r3); 
               y = y + (1.0/6.0)*(r1 + 2*r2 + 2*r3 + r4);; 
               x0 = x0 + h;
          } 
