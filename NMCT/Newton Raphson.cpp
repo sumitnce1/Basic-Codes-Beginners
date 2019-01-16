@@ -1,7 +1,7 @@
 /* SUMIT KUMAR
 C++ program for Newton Raphson Method for solving equations. */
 
-#include<bits/stdc++.h> //all header file includes this library eg.- #include<math.h> 
+#include<bits/stdc++.h> /* all header file includes this library eg.- #include<math.h> */
 #define EPSILON 0.001 
 using namespace std; 
 double func(double x) 
