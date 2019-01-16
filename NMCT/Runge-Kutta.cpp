@@ -10,7 +10,7 @@ float dydx(float x, float y)
      float rungeKutta(float x0, float y0, float x, float h) 
        { 
         int n = (int)((x - x0) / h); 
-        float r1, r2, r3, r4, r5; 
+        float r1, r2, r3, r4; 
         float y = y0; 
         for (int i=1; i<=n; i++) 
          { 
