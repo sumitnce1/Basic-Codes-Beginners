@@ -25,7 +25,7 @@ double func(double x)
   } 
 int main() 
 { 
-    double x0 = -20;.          // Initial values assume
+    double x0 = -20;          // Initial values assume
     newtonRaphson(x0); 
     return 0; 
 }
