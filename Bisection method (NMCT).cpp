@@ -1,4 +1,4 @@
-//write the program bisection metod equation solved
+//write the program bisection method equation solved
 //SUMIT KUMAR
 #include<stdio.h>
 #include<math.h>
