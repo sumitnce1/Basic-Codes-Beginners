@@ -5,7 +5,7 @@
 |-----| -------- |
 |**My Website**| [**Visit**](https://sumitnce1.github.io/)
 
-<img src="/sumit.png" width="49%">
+<img src="/sumit.png" width="55%">
 
 # Coding Site
 |Sumit| Webisite|
