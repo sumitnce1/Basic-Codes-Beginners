@@ -1,9 +1,5 @@
 # BASIC-CODES
 **THIS IS THE REPOSITORY IN CODES BASIC C, C++, JAVA , PYTHON.**
-# Visit My Website
-|@| Webisite|
-|-----| -------- |
-|**My Website**| [**Visit**](https://sumitnce1.github.io/)
 
 # Coding Site
 |Sumit| Webisite|
